@@ -16,3 +16,10 @@ code {
 .spinner-div {
   margin-top: 20%;
 }
+
+/* pushed to 70% on small screens */
+@media screen and (max-width: 600px) {
+  .spinner-div {
+    margin-top: 70%;
+  }
+}
